@@ -1,0 +1,57 @@
+form{
+    background-color: cadetblue;
+    width: 40%;
+    margin: auto;
+    padding: 70px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 5px grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+legend{
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="tel"], input[type="date"], select, input[type="number"], input[type="file"], input[type="datetime-local"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+button {
+    width: 50%;
+    background-color: #264227;
+    color: white;
+    padding: 14px 20px;
+    display: block;
+    margin: auto;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}   
+
+button:hover {
+    background-color: #45a049;
+}
